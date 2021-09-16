@@ -1,4 +1,4 @@
-module go.einride.tech/can
+module github.com/toitware/can-go
 
 go 1.13
 
