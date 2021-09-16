@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"go.einride.tech/can"
+	"github.com/toitware/can-go"
 	"gotest.tools/v3/assert"
 )
 

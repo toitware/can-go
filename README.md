@@ -4,10 +4,10 @@
 [![GoReportCard][report-badge]][report]
 [![Codecov][codecov-badge]][codecov]
 
-[pkg-badge]: https://pkg.go.dev/badge/go.einride.tech/can
-[pkg]: https://pkg.go.dev/go.einride.tech/can
-[report-badge]: https://goreportcard.com/badge/go.einride.tech/can
-[report]: https://goreportcard.com/report/go.einride.tech/can
+[pkg-badge]: https://pkg.go.dev/badge/github.com/toitware/can-go
+[pkg]: https://pkg.go.dev/github.com/toitware/can-go
+[report-badge]: https://goreportcard.com/badge/github.com/toitware/can-go
+[report]: https://goreportcard.com/report/github.com/toitware/can-go
 [codecov-badge]: https://codecov.io/gh/einride/can-go/branch/master/graph/badge.svg
 [codecov]: https://codecov.io/gh/einride/can-go
 
@@ -58,7 +58,7 @@ func main() {
 It is possible to generate Go code from a `.dbc` file.
 
 ```
-$ go run go.einride.tech/can/cmd/cantool generate <dbc file root folder> <output folder>
+$ go run github.com/toitware/can-go/cmd/cantool generate <dbc file root folder> <output folder>
 ```
 
 In order to generate Go code that makes sense, we currently perform some

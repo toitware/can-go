@@ -5,8 +5,8 @@ import (
 	"sort"
 	"time"
 
-	"go.einride.tech/can/pkg/dbc"
-	"go.einride.tech/can/pkg/descriptor"
+	"github.com/toitware/can-go/pkg/dbc"
+	"github.com/toitware/can-go/pkg/descriptor"
 )
 
 type CompileResult struct {

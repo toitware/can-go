@@ -3,7 +3,7 @@ package dbc
 import (
 	"fmt"
 
-	"go.einride.tech/can/internal/identifiers"
+	"github.com/toitware/can-go/internal/identifiers"
 )
 
 // Identifier represents a DBC identifier.

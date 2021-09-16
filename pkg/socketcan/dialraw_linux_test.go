@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"go.einride.tech/can"
+	"github.com/toitware/can-go"
 	"golang.org/x/sync/errgroup"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"

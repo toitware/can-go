@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"go.einride.tech/can"
-	"go.einride.tech/can/pkg/descriptor"
-	"go.einride.tech/can/pkg/generated"
+	"github.com/toitware/can-go"
+	"github.com/toitware/can-go/pkg/descriptor"
+	"github.com/toitware/can-go/pkg/generated"
 	"gotest.tools/v3/assert"
 )
 

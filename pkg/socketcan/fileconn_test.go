@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/golang/mock/gomock"
-	"go.einride.tech/can/internal/gen/mock/mocksocketcan"
+	"github.com/toitware/can-go/internal/gen/mock/mocksocketcan"
 	"gotest.tools/v3/assert"
 )
 

@@ -31,12 +31,12 @@ mockgen-generate: \
 
 internal/gen/mock/mockcanrunner/mocks.go: pkg/canrunner/run.go go.mod
 	go run github.com/golang/mock/mockgen \
-		-destination $@ -package mockcanrunner go.einride.tech/can/pkg/canrunner \
+		-destination $@ -package mockcanrunner github.com/toitware/can-go/pkg/canrunner \
 		Node,TransmittedMessage,ReceivedMessage,FrameTransmitter,FrameReceiver
 
 internal/gen/mock/mockclock/mocks.go: internal/clock/clock.go go.mod
 	go run github.com/golang/mock/mockgen \
-		-destination $@ -package mockclock go.einride.tech/can/internal/clock \
+		-destination $@ -package mockclock github.com/toitware/can-go/internal/clock \
 		Clock,Ticker
 
 internal/gen/mock/mocksocketcan/mocks.go: pkg/socketcan/fileconn.go go.mod

@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	"github.com/shurcooL/go-goon"
-	"go.einride.tech/can/pkg/descriptor"
+	"github.com/toitware/can-go/pkg/descriptor"
 )
 
 type File struct {
@@ -96,13 +96,13 @@ func Imports(f *File) {
 	f.P(`"sync"`)
 	f.P(`"time"`)
 	f.P()
-	f.P(`"go.einride.tech/can"`)
-	f.P(`"go.einride.tech/can/pkg/socketcan"`)
-	f.P(`"go.einride.tech/can/pkg/candebug"`)
-	f.P(`"go.einride.tech/can/pkg/canrunner"`)
-	f.P(`"go.einride.tech/can/pkg/descriptor"`)
-	f.P(`"go.einride.tech/can/pkg/generated"`)
-	f.P(`"go.einride.tech/can/pkg/cantext"`)
+	f.P(`"github.com/toitware/can-go"`)
+	f.P(`"github.com/toitware/can-go/pkg/socketcan"`)
+	f.P(`"github.com/toitware/can-go/pkg/candebug"`)
+	f.P(`"github.com/toitware/can-go/pkg/canrunner"`)
+	f.P(`"github.com/toitware/can-go/pkg/descriptor"`)
+	f.P(`"github.com/toitware/can-go/pkg/generated"`)
+	f.P(`"github.com/toitware/can-go/pkg/cantext"`)
 	f.P(")")
 	f.P()
 	// we could use goimports for this, but it significantly slows down code generation
